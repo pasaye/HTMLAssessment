@@ -1,14 +1,21 @@
 h2, h3, h4, h5 {
 	background: #c77dff;
 	font-family: sans-serif;
-
 }
 
 table, tr, td, th, caption {
 	border: 3px solid hotpink;
 	text-align: center;
+	border-collapse: collapse;
 }
 
+td:nth-of-type(even) {
+	background: lavender;
+}
+
+td:nth-of-type(odd) {
+	background: lightblue;
+}
 
 #scoreBoard th {
 	color: #c77dff;
@@ -37,24 +44,19 @@ img  {
 	background-repeat: no-repeat;
 	background-size: contain;
 	list-style-type: none;
-
-
 }
 
 #teamRoster > li:last-child {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	list-style-type: none;
+	list-style-type: none;	
 }
 
-
+#teamRoster > li > ul > li > ol > li:first-child {
+	font-weight: bold;
+}
 
 #checkbox-grid li{
 	list-style-type: none;
 }
-
-
-
-
-
