@@ -8,7 +8,9 @@ table, tr, td, th, caption {
 	text-align: center;
 	border-collapse: collapse;
 }
-
+caption {
+	border-bottom: none;
+}
 td:nth-of-type(even) {
 	background: lavender;
 }
