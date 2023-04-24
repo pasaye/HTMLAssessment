@@ -42,14 +42,18 @@ img  {
 }
 
 #teamRoster > li:first-child {
+	background-color: rgba(255, 255, 255, .75);
 	background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+	background-blend-mode: overlay;
 	background-repeat: no-repeat;
 	background-size: contain;
 	list-style-type: none;
 }
 
 #teamRoster > li:last-child {
+	background-color: rgba(255, 255, 255, .75);
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+	background-blend-mode: overlay;
 	background-repeat: no-repeat;
 	background-size: contain;
 	list-style-type: none;	
